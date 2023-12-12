@@ -4,13 +4,11 @@ version: 1.0.0
 # repository: https://github.com/my_org/my_repo
 
 environment:
-  sdk: ^3.2.0
+  sdk: '>=3.0.2 <4.0.0'
 
-# Add regular dependencies here.
 dependencies:
-  analyzer: ^6.2.0
+  analyzer: ^5.13.0
   yaml: ^3.1.2
-  # path: ^1.8.0
 
 dev_dependencies:
   lints: ^3.0.0
